@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strict": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": false,
+    "useUnknownInCatchVariables": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noStrictGenericChecks": false,
+    "skipDefaultLibCheck": false,
+    "importHelpers": true,
+
+    "types": [
+      "node",
+      "jest"
+    ],
+
+    "lib": [
+      "ESNext",
+      "es2019",
+      "es2020.bigint",
+      "es2020.string",
+      "es2020.symbol.wellknown",
+      "dom"
+    ],
+
+    "moduleResolution": "node",
+
+    "incremental": true,
+    "skipLibCheck": true,
+    "inlineSources": true,
+
+    "sourceRoot": "/"
+  }
+}
